@@ -68,7 +68,7 @@ public class MyDatabaseAdapter {
         String[] whereArgs = {String.valueOf(id)};
 
         int count = db.delete(MyDatabaseHelper.TABLE_NAME ,MyDatabaseHelper.UID + " = ?", whereArgs);
-        return  count;
+        return count;
     }
 
     //update data in the db
